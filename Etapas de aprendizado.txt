@@ -1,0 +1,18 @@
+Linux: removendo um repositório local
+ rm -rf .git
+
+
+No GitHub 
+
+Criei um novo repositório: 
+Aprendendo
+
+Copiei o trecho abaixo para o Cloud9
+
+Linux:
+echo "# Aprendendo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Home-Git/Aprendendo.git
+git push -u origin master
